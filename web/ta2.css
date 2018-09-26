@@ -1,4 +1,4 @@
-div {
+div, div1{
     font-size: 16px;
     background-color: blue;
     height: 50px;
@@ -9,3 +9,4 @@ div {
 div:hover {
     font-weight: bold;
 }
+
