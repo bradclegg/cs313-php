@@ -3,8 +3,8 @@ function clickMe() {
 }
 
 function changeColor() {
-    var textColor = document.getElementsById('textColor');
-    var div1 = document.getElementsById('first');
+    var textColor = document.getElementById('textColor');
+    var div1 = document.getElementById('first');
 
     div1.style.color = textColor;
 }
