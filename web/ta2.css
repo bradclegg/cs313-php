@@ -3,4 +3,9 @@ div {
     background-color: blue;
     height: 50px;
     width: 100px;
+    margin-top: 10px;
+}
+
+div:hover {
+    font-weight: bold;
 }
