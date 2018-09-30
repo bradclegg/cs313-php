@@ -12,8 +12,8 @@
     <div class="background">
         <h1>Hey Im Brad and I think Mario is cool</h1>
         <div class="img">
-            <img src="box.jpg">
-            <img src="mario.png">
+            <img class="box" src="box.jpg">
+            <img class="mario" src="mario.png">
         </div>
     </div>
     <footer></footer>

@@ -46,3 +46,23 @@ li {
     background-image: url("background.png");
     height: 625px;
 }
+
+.box {
+    position: absolute;
+}
+
+.mario {
+    height: 175px;
+}
+
+.img:hover {
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    from {transform: translateY(0px)}
+    to {transform: translateY(200px)}
+}
+
