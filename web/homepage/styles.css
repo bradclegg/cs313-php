@@ -6,12 +6,19 @@ ul, a{
     display: flex;
 }
 
+ul, body{
+    margin: 0;
+}
+
 nav {
     background-color: red;
+    height: 75px;
 }
 
 footer {
     background-color: red;
+    height: 75px;
+    
 }
 
 h1 {
@@ -26,4 +33,13 @@ h1 {
 
 .small {
     width: 50px;
+}
+
+li {
+    padding-right: 25px;
+    padding-top: 18px;
+}
+
+.background {
+    background-image: url("images.png");
 }
