@@ -9,9 +9,11 @@
 </head>
 <body>
     <?php include('nav.php') ?>
-    <h1>Hey Im Brad and I think Mario is cool</h1>
-    <div>
-        <img src="box.jpg">
+    <div class="background">
+        <h1>Hey Im Brad and I think Mario is cool</h1>
+        <div class="img">
+            <img src="box.jpg">
+        </div>
     </div>
     <footer></footer>
 </body>
