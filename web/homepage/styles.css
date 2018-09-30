@@ -55,7 +55,7 @@ li {
     height: 175px;
 }
 
-.mario:hover {
+.animation:hover {
     animation-name: jump;
     animation-duration: 2s;
     animation-iteration-count: infinite;

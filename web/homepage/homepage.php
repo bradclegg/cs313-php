@@ -13,7 +13,9 @@
         <h1>Hey Im Brad and I think Mario is cool</h1>
         <div class="img">
             <img class="box" src="box.jpg">
-            <img class="mario" src="mario.png">
+            <div class="animation">
+                <img class="mario" src="mario.png">
+            </div>
         </div>
     </div>
     <footer></footer>
