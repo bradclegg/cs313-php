@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Brad's Homepage</title>
     <meta name="author" content="Brad">
-    <link rel="stylesheet" href="web/styles.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
