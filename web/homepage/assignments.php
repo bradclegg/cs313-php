@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <?php include(includes/nav.php)?>
+    <?php include(nav.php)?>
     <h1>Coming Soon</h1>
 </body>
 </html>
