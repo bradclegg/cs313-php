@@ -52,7 +52,7 @@ li {
 }
 
 .box:hover {
-    transform: scale(25%);
+    transform: scale(2);
 }
 
 
