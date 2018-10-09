@@ -8,6 +8,6 @@
 
 </head>
 <body>
-    <?php include('../nav.php')?>
+    <?php include('web/homepage/nav.php')?>
 </body>
 </html>
