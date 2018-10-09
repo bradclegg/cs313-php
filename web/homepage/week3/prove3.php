@@ -1,3 +1,11 @@
+<?php
+session_start();
+	if (!isset($_SESSION['cart'])) {
+        $_SESSION["item1"] = 0;
+	}
+?>
+
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -9,37 +17,42 @@
     </head>
     <body>
         <?php include('../nav.php')?>
-        <div class="line1">
+        <form methode="post" action="cart.php">
+            <div class="line1">
                 <div class="mushroom">
-                <form methode="post" action="cart.php">
-                    <input type="image" name="mushroom "src="images/mushroom.jpg">
+                    <img src="images/mushroom.jpg">
                     <p>One mushroom</p>
-                    <button type="submit">add to cart</button>
-                </form>
+                    <input type="submit" name="mushroom" value="Add to cart">
+                    <?php
+						if (isset($_POST['mushroom']))
+						{
+                            $_SESSION["item1"] += 1;
+						}
+					?>
                 </div>
-            <div class="lifeMushroom">
-                <img src="images/life.jpg">
-                <p>One life mushroom</p>
+                <div class="lifeMushroom">
+                    <img src="images/life.jpg">
+                    <p>One life mushroom</p>
+                </div>
+                <div class="firelower">
+                    <img src="images/fire.jpg">
+                    <p>One fire flower</p>
+                </div>
             </div>
-            <div class="firelower">
-                <img src="images/fire.jpg">
-                <p>One fire flower</p>
+            <div class="line2">
+                <div class="greenShell">
+                    <img src="images/greenShell.jpg">
+                    <p>One green shell</p>
+                </div>
+                <div class="blueShell">
+                    <img src="images/blueShell.jpg">
+                    <p>One blue shell</p>
+                </div>
+                <div class="star">
+                    <img src="images/star.jpg">
+                    <p>One super star</p>
+                </div>
             </div>
-        </div>
-        <div class="line2">
-            <div class="greenShell">
-                <img src="images/greenShell.jpg">
-                <p>One green shell</p>
-            </div>
-            <div class="blueShell">
-                <img src="images/blueShell.jpg">
-                <p>One blue shell</p>
-            </div>
-            <div class="star">
-                <img src="images/star.jpg">
-                <p>One super star</p>
-            </div>
-        </div>
-
+        </form>
     </body>
 </html>
