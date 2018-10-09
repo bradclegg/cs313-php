@@ -17,12 +17,6 @@
             echo "<p> cart is empty </p>";
         }
 
-        if ($_SESSION['item1'] > 0) {
-
-        if (isset($_POST['remove1'])) {
-            $_SESSION['item1'] -= 1; 
-            $_SESSION['item'] -= 1;
-        }
     
         if ($_SESSION['item1'] > 0) {
             echo "<div class='mushroom'>";
@@ -31,7 +25,11 @@
             echo "<input type='submit' name='remove1' value='remove'>";
             echo "</div>";
         }
-    }
+
+        if (isset($_POST['remove1'])) {
+            $_SESSION['item1'] -= 1; 
+            $_SESSION['item'] -= 1;
+        }
  ?>
     </body>
 </html>
