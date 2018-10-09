@@ -8,6 +8,6 @@
 
 </head>
 <body>
-    <?php include('web/homepage/nav.php')?>
+    <?php include('cs313-php/web/homepage/nav.php')?>
 </body>
 </html>
