@@ -42,6 +42,7 @@ session_start();
 						if (isset($_POST["life"]))
 						{
                             $_SESSION["item2"] += 1;
+                            $_SESSION['item'] += 1;
 						}
 					?>
                 </div>
@@ -53,6 +54,7 @@ session_start();
 						if (isset($_POST["fire"]))
 						{
                             $_SESSION["item3"] += 1;
+                            $_SESSION['item'] += 1;
 						}
 					?>
                 </div>
@@ -66,6 +68,7 @@ session_start();
 						if (isset($_POST["greenShell"]))
 						{
                             $_SESSION["item4"] += 1;
+                            $_SESSION['item'] += 1;
 						}
 					?>
                 </div>
@@ -77,6 +80,7 @@ session_start();
 						if (isset($_POST["blueShell"]))
 						{
                             $_SESSION["item5"] += 1;
+                            $_SESSION['item'] += 1;
 						}
 					?>
                 </div>
@@ -88,6 +92,7 @@ session_start();
 						if (isset($_POST["star"]))
 						{
                             $_SESSION["item6"] += 1;
+                            $_SESSION['item'] += 1;
 						}
 					?>
                 </div>
