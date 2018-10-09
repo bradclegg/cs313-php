@@ -11,9 +11,11 @@
         <?php include('../nav.php')?>
         <div class="line1">
                 <div class="mushroom">
-                    <img src="images/mushroom.jpg">
+                <form methode="post" action="cart.php">
+                    <input type="image" name="mushroom "src="images/mushroom.jpg">
                     <p>One mushroom</p>
-                    <button type="submit" formaction="cart.php">add to cart</button>
+                    <button type="submit">add to cart</button>
+                </form>
                 </div>
             <div class="lifeMushroom">
                 <img src="images/life.jpg">
