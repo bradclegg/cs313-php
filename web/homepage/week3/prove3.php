@@ -13,7 +13,7 @@
                 <div class="mushroom">
                     <img src="images/mushroom.jpg">
                     <p>One mushroom</p>
-                    <button type="submit" formaction="cart.php">
+                    <button type="submit" formaction="cart.php">add to cart</button>
                 </div>
             <div class="lifeMushroom">
                 <img src="images/life.jpg">
