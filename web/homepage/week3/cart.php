@@ -21,7 +21,7 @@
             $_SESSION['item1'] -= 1;  
         }
     
-        if ($_SESSION['item'] > 0) {
+        if ($_SESSION['item1'] > 0) {
             echo "<div class='mushroom'>";
             echo "<img src='images/mushroom.jpg'>";
             echo "<p>One mushroom</p>";
