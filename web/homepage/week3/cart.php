@@ -17,10 +17,12 @@
             echo "<p> cart is empty </p>";
         }
 
+        if ($_SESSION['count2'] > 0) {
+
         if (isset($_POST['remove'])) {
             $_SESSION['item1'] -= 1;  
         }
-
+    }
         if ($_SESSION['item1'] > 0) {
             echo "<div class='mushroom'>";
             echo "<img src='images/mushroom.jpg'>";
