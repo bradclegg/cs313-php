@@ -17,7 +17,7 @@
             echo "<p> cart is empty </p>";
         }
 
-        if ($_SESSION['count2'] > 0) {
+        if ($_SESSION['item1'] > 0) {
 
         if (isset($_POST['remove'])) {
             $_SESSION['item1'] -= 1;  
