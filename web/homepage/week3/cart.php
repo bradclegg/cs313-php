@@ -16,12 +16,19 @@
         if ($_SESSION["item"] == 0) {
             echo "<p> cart is empty </p>";
         }
+
+        if (isset($_POST['remove'])) {
+            $_SESSION['item1'] -= 1;  
+        }
     
         if ($_SESSION['item'] > 0) {
             echo "<div class='mushroom'>";
             echo "<img src='images/mushroom.jpg'>";
             echo "<p>One mushroom</p>";
+            echo "<input type='submit' name='remove' value='remove'>";
         }
+
+
                         ?>
     </body>
 </html>
