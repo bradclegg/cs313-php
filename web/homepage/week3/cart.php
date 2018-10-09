@@ -13,7 +13,7 @@
     <body>
         <?php include('../nav.php')?>
         <?php
-        if ($_SESSION["item"] == 0) {
+        if ($_SESSION["item1"] == 0) {
             echo "<p> cart is empty </p>";
         }
 
