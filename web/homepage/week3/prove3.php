@@ -9,9 +9,13 @@
 </head>
 <body>
     <?php include('../nav.php')?>
-    <div>
+    <div class="mushroom">
         <img src="images/mushroom.jpg">
         <p>One mushroom</p>
+    </div>
+    <div class="lifeMushroom">
+        <img src="images/life.jpg">
+        <p>One life mushroom</p>
     </div>
 
 </body>
