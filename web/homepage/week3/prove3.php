@@ -20,9 +20,9 @@ session_start();
                 <div class="mushroom">
                     <img src="images/mushroom.jpg">
                     <p>One mushroom</p>
-                    <input type="submit" name="mushroom" value="1">
+                    <input type="submit" name="mushroom" value="add to cart">
                     <?php
-						if (isset($_POST['mushroom']))
+						if (isset($_POST["mushroom"]))
 						{
                             $_SESSION["item"] += 1;
 						}
