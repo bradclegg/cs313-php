@@ -20,7 +20,7 @@
         if ($_SESSION['item1'] > 0) {
 
         if (isset($_POST['remove'])) {
-            $_SESSION['item1'] - 1;  
+            $_SESSION['item1'] -= 1;  
         }
     
         if ($_SESSION['item1'] > 0) {
@@ -28,6 +28,7 @@
             echo "<img src='images/mushroom.jpg'>";
             echo "<p>One mushroom</p>";
             echo "<input type='submit' name='remove' value='remove one'>";
+            echo "</div>"
         }
     }
 
