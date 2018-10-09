@@ -10,7 +10,7 @@
 <body>
     <?php include('../nav.php')?>
     <div>
-        <img src="image/mushroom.jpg">
+        <img src="images/mushroom.jpg">
         <p>One mushroom</p>
     </div>
 
