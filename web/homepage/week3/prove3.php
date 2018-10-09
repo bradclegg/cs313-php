@@ -30,6 +30,7 @@ session_start();
 						if (isset($_POST["mushroom"]))
 						{
                             $_SESSION["item1"] += 1;
+                            $_SESSION['cart'] += 1;
 						}
 					?>
                 </div>
