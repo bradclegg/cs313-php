@@ -15,7 +15,7 @@ session_start();
     </head>
     <body>
         <?php include('../nav.php')?>
-        <form methode="post" action="cart.php">
+        <form methode="post" action="<?php echo($_SERVER['PHP_SELF']); ?>">
             <div class="line1">
                 <div class="mushroom">
                     <img src="images/mushroom.jpg">
