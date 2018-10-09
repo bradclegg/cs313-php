@@ -55,4 +55,19 @@ li {
     transform: scale(2);
 }
 
+.line1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%
+}
+
+p {
+    padding-left: 50px;
+    font-size: 20px;
+}
 
