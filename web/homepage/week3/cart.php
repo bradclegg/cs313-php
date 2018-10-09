@@ -24,12 +24,13 @@
             echo "<p>One mushroom</p>";
             echo "<input type='submit' name='remove1' value='remove'>";
             echo "</div>";
-        }
+    
 
         if (isset($_POST['remove1'])) {
             $_SESSION['item1'] -= 1; 
             $_SESSION['item'] -= 1;
         }
+    }
  ?>
     </body>
 </html>
