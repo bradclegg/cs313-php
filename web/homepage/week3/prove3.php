@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php include('../nav.php')?>
-    <div class="items">
+    <div class="line1">
         <div class="mushroom">
             <img src="images/mushroom.jpg">
             <p>One mushroom</p>
@@ -20,8 +20,10 @@
         </div>
         <div class="firelower">
             <img src="images/fire.jpg">
-            <p>One fire flower/p>
+            <p>One fire flower</p>
         </div>
+    </div>
+    <div class="line2">
         <div class="greenShell">
             <img src="images/greenShell.jpg">
             <p>One green shell</p>
