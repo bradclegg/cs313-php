@@ -1,11 +1,9 @@
 <?php
 session_start();
-	if (!isset($_SESSION['cart'])) {
-        $_SESSION["item1"] = 0;
+	if (!isset($_SESSION['item'])) {
+        $_SESSION["item"] = 0;
 	}
 ?>
-
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -22,11 +20,11 @@ session_start();
                 <div class="mushroom">
                     <img src="images/mushroom.jpg">
                     <p>One mushroom</p>
-                    <input type="submit" name="mushroom" value="Add to cart">
+                    <input type="submit" name="mushroom" value="add to cart">
                     <?php
 						if (isset($_POST['mushroom']))
 						{
-                            $_SESSION["item1"] += 1;
+                            $_SESSION["item"] += 1;
 						}
 					?>
                 </div>
