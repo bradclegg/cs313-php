@@ -10,10 +10,11 @@
     <body>
         <?php include('../nav.php')?>
         <div class="line1">
-            <div class="mushroom">
-                <img src="images/mushroom.jpg">
-                <p>One mushroom</p>
-            </div>
+                <div class="mushroom">
+                    <img src="images/mushroom.jpg">
+                    <p>One mushroom</p>
+                    <button type="submit" formaction="cart.php">
+                </div>
             <div class="lifeMushroom">
                 <img src="images/life.jpg">
                 <p>One life mushroom</p>
