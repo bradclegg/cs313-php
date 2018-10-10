@@ -19,16 +19,16 @@
 
         if ($_SESSION['item1'] > 0) {
 			 
-            if (isset($_POST['remove2'])) {
+            if (isset($_POST['remove'])) {
                 $_SESSION['item1'] -= 1;
                 $_SESSION['cart'] -= 1;
                 
             }
             if ($_SESSION['item1'] > 0) {
                 echo "<div class='mushroom'>";
-                echo "<img src='images/mushroom'>";
+                echo "<img src='images/mushroom.jpg'>";
                 echo "<p>One Mushroom</p>";
-                echo "<input type='submit' name='remove2' value='remove one'>";
+                echo "<input type='submit' name='remove' value='remove item'>";
                 echo "</div>";
             }
         }
