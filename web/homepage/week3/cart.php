@@ -59,5 +59,7 @@
                 echo "</div>";
             }
  ?>
+        <a class="button" href="browse.php">Return to Shopping</a>
+        <a class="button" href="checkout.php">Continue to Checkout</a>
     </body>
 </html>
