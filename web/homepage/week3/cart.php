@@ -30,6 +30,34 @@
                 echo "<p>One Up</p>";
                 echo "</div>";
             }
+
+            if ($_SESSION['item3'] > 0) {
+                echo "<div class='fireFlower'>";
+                echo "<img src='images/fire.jpg'>";
+                echo "<p>One Fire Flower</p>";
+                echo "</div>";
+            }
+
+            if ($_SESSION['item4'] > 0) {
+                echo "<div class='greenShell'>";
+                echo "<img src='images/greenShell.jpg'>";
+                echo "<p>One Green Shell</p>";
+                echo "</div>";
+            }
+
+            if ($_SESSION['item5'] > 0) {
+                echo "<div class='blueShell'>";
+                echo "<img src='images/blueShell.jpg'>";
+                echo "<p>One Blue Shell</p>";
+                echo "</div>";
+            }
+
+            if ($_SESSION['item6'] > 0) {
+                echo "<div class='star'>";
+                echo "<img src='images/star.jpg'>";
+                echo "<p>One Super Star</p>";
+                echo "</div>";
+            }
  ?>
     </body>
 </html>

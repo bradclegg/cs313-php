@@ -46,7 +46,7 @@ session_start();
 						}
 					?>
                 </div>
-                <div class="firelower">
+                <div class="fireFlower">
                     <img src="images/fire.jpg">
                     <p>One fire flower</p>
                     <input type="submit" name="fire" value="add to cart">
