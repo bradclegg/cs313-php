@@ -17,21 +17,19 @@
             echo "<p> cart is empty </p>";
         }
 
-        if ($_SESSION['item1'] > 0) {
-			 
-            if (isset($_POST['remove'])) {
-                $_SESSION['item1'] -= 1;
-                $_SESSION['cart'] -= 1;
-                
-            }
             if ($_SESSION['item1'] > 0) {
                 echo "<div class='mushroom'>";
                 echo "<img src='images/mushroom.jpg'>";
                 echo "<p>One Mushroom</p>";
-                echo "<input type='submit' name='remove' value='remove item'>";
                 echo "</div>";
             }
-        }
+
+            if ($_SESSION['item2'] > 0) {
+                echo "<div class='lifeMushroom'>";
+                echo "<img src='images/life.jpg'>";
+                echo "<p>One Up</p>";
+                echo "</div>";
+            }
  ?>
     </body>
 </html>
