@@ -1,0 +1,28 @@
+CREATE TABLE public.customer
+(
+	id SERIAL NOT NULL PRIMARY KEY,
+	username VARCHAR(100) NOT NULL UNIQUE,
+	password VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE public.purchase
+(
+	id SERIAL NOT NULL PRIMARY KEY,
+	user_account_id INT NOT NULL REFERENCES public.customer(id)
+);
+
+CREATE TABLE public.product
+(
+	id SERIAL NOT NULL PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+    price INT NOT NULL
+);
+
+CREATE TABLE public.purchase_item
+(
+	purchase_id INT NOT NULL PRIMARY KEY REFERENCES public.purchase(id),
+    product_id INT NOT NULL REFERENCES public.product(id),
+	number_of_items INT NOT NULL,
+	total_price INT NOT NULL
+);
